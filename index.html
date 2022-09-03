@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+
+    <div class="wrapper">
+        <div class="container-top">
+            <h1>Учёт сотрудников в компании Wepro</h1>
+            <h2>Общее число сотрудников: <span class="overAll">1</span></h2>
+            <h2>Премию получат: <span class="count">0</span></h2>
+        </div>
+        <div class="box">
+            <input type="search" class="search" placeholder="Поиск">
+           <div class="box-bottom">
+            <button class="employees">Все сотрудники</button>
+            <button class="increase-btn">На повышение</button>
+            <button class="big-salary">З/П больше 1000$</button>
+           </div>
+        </div>
+
+        <div class="list">
+            <div class="left">
+                <p class="font">Азамат Кудзаев</p>
+            </div>
+            <div class="right">
+                <p class="font2">5000$</p>
+                <div class="right-far">
+                    <img src="./img/cookie_icon.svg" height="30px" class="cookie">
+                    <img src="./img/delete_ic_icon.svg" height="30px">
+                    
+                </div>
+            </div>
+        </div>
+
+        <footer>
+             <h1 class="font-color">Добавьте нового сотрудника</h1>
+             <div class="footer-bottom">
+                <form name="addUser">
+                    <input type="text" name="name" id="new-user" placeholder="Как его зовут?">
+                    <input type="text" name="salary" id="new-user" placeholder="З/П в $?">
+                    <button class="add">Добавить</button>
+                </form>
+             </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./Scripts/script.js"></script>
+</body>
+</html>

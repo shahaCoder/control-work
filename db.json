@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "name": "Сабина Яковлева",
+      "salary": 5000,
+      "increase": false,
+      "rise": true,
+      "id": 7
+    },
+    {
+      "name": "Руфина",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 8
+    },
+    {
+      "name": "Хуршида",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 9
+    },
+    {
+      "name": "Дилшод Муртазоев",
+      "salary": 5000,
+      "increase": false,
+      "rise": false,
+      "id": 10
+    },
+    {
+      "name": "Шохрух",
+      "salary": "3000",
+      "id": 12
+    }
+  ]
+}
