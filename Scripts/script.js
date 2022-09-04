@@ -130,7 +130,7 @@ axios.get(url)
                 place.append(list)
         
         
-                list.onclick = () => {
+                p.onclick = () => {
                     star.style.display = 'inline'
                 }
 
