@@ -25,7 +25,10 @@ axios.get(url)
         }
         
         
-        let user = {}
+        let user = {
+            rise: false,
+            increase: false,
+        }
         form.onsubmit = (e)  => {
             e.preventDefault()
             
@@ -198,6 +201,7 @@ axios.get(url)
                 }
 
                 imgCookie.onclick = () => {
+                    
                     if(item.rise === true){
                         count = count.innerHTML--
                         p.classList.remove('toggle')
@@ -219,12 +223,6 @@ axios.get(url)
                 }
             }
         }
-        
-
-
-        
-
-
     }
   })
  
